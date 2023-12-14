@@ -11,7 +11,7 @@ const { MONGO_URL, PORT } = process.env;
 const app = express();
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://loquacious-puppy-91c1c0.netlify.app',
   credentials: true,
 }));
 
